@@ -1,0 +1,544 @@
+person_id,gender,age,field_of_study,race,career,ageBin
+1,Female,21,Law,Asian/Pacific Islander/Asian-American,Unknown,20 - 25
+2,Female,24,Law,European/Caucasian-American,Unknown,20 - 25
+3,Female,25,Math,European/Caucasian-American,Unknown,25 - 30
+4,Female,23,Law,European/Caucasian-American,Lawyer,20 - 25
+5,Female,21,Law,European/Caucasian-American,Lawyer,20 - 25
+6,Female,23,Law,Asian/Pacific Islander/Asian-American,Lawyer,20 - 25
+7,Female,22,Law,Asian/Pacific Islander/Asian-American,Lawyer,20 - 25
+8,Female,25,Politics,European/Caucasian-American,Arts,25 - 30
+9,Female,26,Politics,Other,Human Affairs,25 - 30
+10,Female,26,Politics,European/Caucasian-American,Human Affairs,25 - 30
+11,Male,27,Business/Econ/Finance,European/Caucasian-American,Academic/Research,25 - 30
+12,Male,22,Law,European/Caucasian-American,Lawyer,20 - 25
+13,Male,22,Law,Asian/Pacific Islander/Asian-American,Lawyer,20 - 25
+14,Male,23,Law,European/Caucasian-American,Lawyer,20 - 25
+15,Male,24,Law,Latino/Hispanic American,Lawyer,20 - 25
+16,Male,25,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+17,Male,30,Politics,European/Caucasian-American,Academic/Research,30 - 35
+18,Male,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+19,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+20,Male,24,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,20 - 25
+21,Female,21,Engineering,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+22,Female,27,"Education, Academia",Black/African American,Engineer,25 - 30
+23,Female,21,"Social Science, Psychologist",Asian/Pacific Islander/Asian-American,Psychologist,20 - 25
+24,Female,27,Social Work,European/Caucasian-American,Human Affairs,25 - 30
+25,Female,25,Social Work,European/Caucasian-American,Human Affairs,25 - 30
+26,Female,23,Social Work,European/Caucasian-American,Human Affairs,20 - 25
+27,Female,22,"Social Science, Psychologist",Latino/Hispanic American,Human Affairs,20 - 25
+28,Female,26,"Social Science, Psychologist",European/Caucasian-American,Unknown,25 - 30
+29,Female,22,Social Work,European/Caucasian-American,Human Affairs,20 - 25
+30,Female,23,Law,European/Caucasian-American,Lawyer,20 - 25
+31,Female,24,Law,European/Caucasian-American,Lawyer,20 - 25
+32,Female,27,"Social Science, Psychologist",Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+33,Female,30,"Social Science, Psychologist",European/Caucasian-American,Arts,30 - 35
+34,Female,21,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+35,Female,25,Math,European/Caucasian-American,Buiness/Marketing,25 - 30
+36,Female,26,Math,European/Caucasian-American,Doctor/Medicine,25 - 30
+37,Female,27,"Social Science, Psychologist",European/Caucasian-American,Buiness/Marketing,25 - 30
+38,Female,23,Law,Black/African American,Lawyer,20 - 25
+39,Female,24,Law,Latino/Hispanic American,Lawyer,20 - 25
+40,Male,25,Unknown,Asian/Pacific Islander/Asian-American,Unknown,25 - 30
+41,Male,30,Law,Asian/Pacific Islander/Asian-American,Lawyer,30 - 35
+42,Male,23,Engineering,Asian/Pacific Islander/Asian-American,Engineer,20 - 25
+43,Male,24,Business/Econ/Finance,European/Caucasian-American,Academic/Research,20 - 25
+44,Male,24,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,20 - 25
+45,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+46,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+47,Male,30,Business/Econ/Finance,European/Caucasian-American,Academic/Research,30 - 35
+48,Male,22,Undergrad/undecided,European/Caucasian-American,Arts,20 - 25
+49,Male,25,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+50,Male,27,Law,Black/African American,Lawyer,25 - 30
+51,Male,23,Law,European/Caucasian-American,Lawyer,20 - 25
+52,Male,21,Law,European/Caucasian-American,Lawyer,20 - 25
+53,Male,28,Medical/Bio,European/Caucasian-American,Doctor/Medicine,25 - 30
+54,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+55,Male,23,Law,Black/African American,Lawyer,20 - 25
+56,Female,23,Social Work,European/Caucasian-American,Human Affairs,20 - 25
+57,Female,22,Social Work,European/Caucasian-American,Human Affairs,20 - 25
+60,Female,29,"Social Science, Psychologist",Other,Arts,25 - 30
+61,Female,28,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,25 - 30
+62,Female,26,Law,Latino/Hispanic American,Lawyer,25 - 30
+63,Female,24,Law,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+64,Female,27,Social Work,Asian/Pacific Islander/Asian-American,Human Affairs,25 - 30
+65,Female,23,Social Work,Other,Psychologist,20 - 25
+66,Male,29,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+67,Male,22,Law,Other,Lawyer,20 - 25
+68,Male,27,English/Creative Writing/ Journalism,Black/African American,Arts,25 - 30
+69,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+70,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+71,Male,21,Law,European/Caucasian-American,Pro sports/Athletics,20 - 25
+72,Male,22,Engineering,European/Caucasian-American,Buiness/Marketing,20 - 25
+73,Male,22,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,20 - 25
+74,Male,25,Engineering,European/Caucasian-American,Engineer,25 - 30
+75,Male,24,Law,Other,Lawyer,20 - 25
+76,Female,34,English/Creative Writing/ Journalism,European/Caucasian-American,Academic/Research,30 - 35
+77,Female,22,Social Work,European/Caucasian-American,Social Work,20 - 25
+78,Female,23,Social Work,Latino/Hispanic American,Social Work,20 - 25
+79,Female,26,Engineering,Asian/Pacific Islander/Asian-American,Engineer,25 - 30
+80,Female,27,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+81,Female,28,English/Creative Writing/ Journalism,European/Caucasian-American,Arts,25 - 30
+82,Female,25,"Education, Academia",Other,Academic/Research,25 - 30
+83,Female,35,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,35 - 40
+84,Female,32,Chemistry/Physics,Latino/Hispanic American,Doctor/Medicine,30 - 35
+85,Female,30,Social Work,European/Caucasian-American,Human Affairs,30 - 35
+86,Female,22,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,20 - 25
+87,Female,23,Social Work,European/Caucasian-American,Human Affairs,20 - 25
+88,Female,23,Social Work,European/Caucasian-American,Human Affairs,20 - 25
+89,Female,27,Business/Econ/Finance,European/Caucasian-American,Academic/Research,25 - 30
+90,Female,23,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+91,Female,25,Law,Other,Lawyer,25 - 30
+92,Female,29,"Education, Academia",European/Caucasian-American,Buiness/Marketing,25 - 30
+93,Female,29,Engineering,European/Caucasian-American,Academic/Research,25 - 30
+94,Male,28,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+95,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+96,Male,26,Engineering,Latino/Hispanic American,Academic/Research,25 - 30
+97,Male,29,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+98,Male,39,Social Work,European/Caucasian-American,Academic/Research,35 - 40
+99,Male,28,Law,European/Caucasian-American,Lawyer,25 - 30
+100,Male,30,Business/Econ/Finance,Other,Academic/Research,30 - 35
+101,Male,22,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+102,Male,32,Chemistry/Physics,European/Caucasian-American,Academic/Research,30 - 35
+103,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+104,Male,27,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+105,Male,25,Law,Black/African American,Lawyer,25 - 30
+106,Male,22,Law,Latino/Hispanic American,Lawyer,20 - 25
+107,Male,21,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,20 - 25
+108,Male,24,Engineering,European/Caucasian-American,Engineer,20 - 25
+109,Male,25,Film,Asian/Pacific Islander/Asian-American,Arts,25 - 30
+110,Male,28,Film,European/Caucasian-American,Arts,25 - 30
+111,Male,27,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+112,Female,20,"Social Science, Psychologist",Other,Social Work,20 - 25
+113,Female,21,Business/Econ/Finance,European/Caucasian-American,Undecided,20 - 25
+114,Female,20,Business/Econ/Finance,Black/African American,Unknown,20 - 25
+115,Female,21,"Social Science, Psychologist",European/Caucasian-American,Psychologist,20 - 25
+116,Female,21,Politics,European/Caucasian-American,Undecided,20 - 25
+117,Female,21,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,20 - 25
+119,Female,19,Languages,Latino/Hispanic American,Lawyer,15 - 20
+120,Female,20,English/Creative Writing/ Journalism,Latino/Hispanic American,Arts,20 - 25
+121,Female,21,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,20 - 25
+122,Male,22,Law,Other,Lawyer,20 - 25
+123,Male,18,Engineering,Asian/Pacific Islander/Asian-American,Doctor/Medicine,15 - 20
+124,Male,22,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Lawyer,20 - 25
+125,Male,21,Medical/Bio,European/Caucasian-American,Doctor/Medicine,20 - 25
+126,Male,22,History/Religion/Philosophy,European/Caucasian-American,Doctor/Medicine,20 - 25
+127,Male,22,Engineering,European/Caucasian-American,Arts,20 - 25
+128,Male,21,Engineering,European/Caucasian-American,Engineer,20 - 25
+130,Male,20,Engineering,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+131,Male,19,Engineering,Asian/Pacific Islander/Asian-American,Undecided,15 - 20
+132,Female,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+133,Female,24,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+134,Female,23,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+135,Female,26,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,25 - 30
+137,Male,26,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Real Estate,25 - 30
+138,Male,32,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+139,Male,37,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,35 - 40
+140,Male,29,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+141,Male,28,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+142,Female,24,Politics,European/Caucasian-American,Academic/Research,20 - 25
+143,Female,33,Law,European/Caucasian-American,Lawyer,30 - 35
+144,Female,23,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+145,Female,24,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+146,Female,36,English/Creative Writing/ Journalism,European/Caucasian-American,Academic/Research,35 - 40
+147,Female,26,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+148,Female,27,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+149,Female,28,Politics,European/Caucasian-American,Academic/Research,25 - 30
+150,Female,31,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,30 - 35
+151,Female,28,Politics,European/Caucasian-American,Human Affairs,25 - 30
+152,Female,27,Politics,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+153,Female,28,History/Religion/Philosophy,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+154,Female,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+155,Female,27,Business/Econ/Finance,European/Caucasian-American,Human Affairs,25 - 30
+156,Female,30,Business/Econ/Finance,Black/African American,Buiness/Marketing,30 - 35
+157,Female,28,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+158,Male,23,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+159,Male,28,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+160,Male,29,Business/Econ/Finance,Black/African American,Real Estate,25 - 30
+161,Male,22,Chemistry/Physics,European/Caucasian-American,Undecided,20 - 25
+162,Male,27,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+163,Male,26,"Education, Academia",European/Caucasian-American,Academic/Research,25 - 30
+164,Male,27,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,25 - 30
+165,Male,30,Politics,European/Caucasian-American,Arts,30 - 35
+166,Male,26,Business/Econ/Finance,Other,Buiness/Marketing,25 - 30
+167,Male,23,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+168,Male,23,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+169,Male,28,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+170,Male,28,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+171,Male,29,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+172,Male,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+173,Male,22,Math,European/Caucasian-American,Academic/Research,20 - 25
+174,Female,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+175,Female,23,Politics,Other,Buiness/Marketing,20 - 25
+176,Female,28,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+177,Female,22,Politics,European/Caucasian-American,Buiness/Marketing,20 - 25
+178,Female,35,"Social Science, Psychologist",Asian/Pacific Islander/Asian-American,Doctor/Medicine,35 - 40
+179,Female,30,English/Creative Writing/ Journalism,Latino/Hispanic American,Academic/Research,30 - 35
+180,Female,24,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+181,Female,22,Medical/Bio,Black/African American,Academic/Research,20 - 25
+182,Female,22,Medical/Bio,Black/African American,Doctor/Medicine,20 - 25
+183,Female,24,Social Work,European/Caucasian-American,Arts,20 - 25
+184,Male,34,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+185,Male,25,Math,Asian/Pacific Islander/Asian-American,Arts,25 - 30
+186,Male,24,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+187,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+188,Male,21,Engineering,European/Caucasian-American,Academic/Research,20 - 25
+189,Male,27,Law,Other,Human Affairs,25 - 30
+190,Male,25,Politics,European/Caucasian-American,Human Affairs,25 - 30
+191,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+192,Male,24,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,20 - 25
+193,Male,25,Law,Asian/Pacific Islander/Asian-American,Lawyer,25 - 30
+194,Female,24,"Social Science, Psychologist",European/Caucasian-American,Psychologist,20 - 25
+195,Female,27,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+196,Female,25,History/Religion/Philosophy,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+197,Female,24,Politics,Other,Buiness/Marketing,20 - 25
+198,Female,23,Politics,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+199,Female,30,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,30 - 35
+200,Female,25,Business/Econ/Finance,European/Caucasian-American,Human Affairs,25 - 30
+201,Female,25,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+202,Female,22,Math,European/Caucasian-American,Academic/Research,20 - 25
+203,Female,22,Math,European/Caucasian-American,Academic/Research,20 - 25
+204,Female,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+205,Female,23,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+206,Female,31,Business/Econ/Finance,Black/African American,Human Affairs,30 - 35
+207,Female,23,Chemistry/Physics,European/Caucasian-American,Lawyer,20 - 25
+208,Female,25,Chemistry/Physics,Black/African American,Buiness/Marketing,25 - 30
+209,Female,28,Politics,Black/African American,Buiness/Marketing,25 - 30
+210,Female,29,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+211,Female,28,Politics,European/Caucasian-American,Human Affairs,25 - 30
+212,Female,27,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+213,Female,25,Politics,Latino/Hispanic American,Buiness/Marketing,25 - 30
+214,Male,23,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+215,Male,26,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+216,Male,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+217,Male,26,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+218,Male,24,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+219,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+220,Male,25,Politics,Other,Arts,25 - 30
+221,Male,27,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+222,Male,27,Math,European/Caucasian-American,Academic/Research,25 - 30
+223,Male,28,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,25 - 30
+224,Male,32,"Social Science, Psychologist",European/Caucasian-American,Other,30 - 35
+225,Male,28,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+226,Male,23,Business/Econ/Finance,European/Caucasian-American,Arts,20 - 25
+227,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+228,Male,24,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+229,Male,28,Chemistry/Physics,European/Caucasian-American,Buiness/Marketing,25 - 30
+230,Male,42,Politics,European/Caucasian-American,Buiness/Marketing,40 - 45
+231,Male,30,Politics,Latino/Hispanic American,Human Affairs,30 - 35
+232,Male,31,Politics,European/Caucasian-American,Human Affairs,30 - 35
+233,Male,29,Politics,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+234,Female,22,"Social Science, Psychologist",Other,Academic/Research,20 - 25
+235,Female,23,"Education, Academia",European/Caucasian-American,Academic/Research,20 - 25
+236,Female,24,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+237,Female,34,History/Religion/Philosophy,European/Caucasian-American,Arts,30 - 35
+238,Female,27,Fine Arts/Arts Administration,European/Caucasian-American,Arts,25 - 30
+239,Female,34,Chemistry/Physics,European/Caucasian-American,Buiness/Marketing,30 - 35
+240,Female,26,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Arts,25 - 30
+241,Female,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+242,Female,26,"Social Science, Psychologist",Latino/Hispanic American,Academic/Research,25 - 30
+243,Male,27,Languages,European/Caucasian-American,Academic/Research,25 - 30
+244,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+245,Male,32,History/Religion/Philosophy,European/Caucasian-American,Lawyer,30 - 35
+246,Male,25,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+247,Male,25,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+248,Male,27,Business/Econ/Finance,Other,Buiness/Marketing,25 - 30
+249,Male,33,Business/Econ/Finance,Other,Buiness/Marketing,30 - 35
+250,Male,25,English/Creative Writing/ Journalism,Other,Academic/Research,25 - 30
+251,Male,33,History/Religion/Philosophy,Other,Undecided,30 - 35
+252,Female,28,Politics,Latino/Hispanic American,Academic/Research,25 - 30
+253,Female,33,"Social Science, Psychologist",Asian/Pacific Islander/Asian-American,Academic/Research,30 - 35
+254,Female,22,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,20 - 25
+255,Female,26,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+256,Female,24,Medical/Bio,Asian/Pacific Islander/Asian-American,Doctor/Medicine,20 - 25
+257,Female,24,"Education, Academia",European/Caucasian-American,Academic/Research,20 - 25
+258,Female,25,"Education, Academia",Other,Academic/Research,25 - 30
+259,Female,25,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+260,Female,27,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+261,Female,26,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+262,Female,29,"Social Science, Psychologist",European/Caucasian-American,Undecided,25 - 30
+263,Female,26,"Social Science, Psychologist",Black/African American,Undecided,25 - 30
+264,Female,26,English/Creative Writing/ Journalism,European/Caucasian-American,Academic/Research,25 - 30
+265,Female,32,Law,European/Caucasian-American,Academic/Research,30 - 35
+266,Female,28,Languages,European/Caucasian-American,Undecided,25 - 30
+267,Female,26,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+268,Female,24,Medical/Bio,Latino/Hispanic American,Doctor/Medicine,20 - 25
+269,Female,24,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,20 - 25
+270,Female,23,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+271,Female,23,Social Work,European/Caucasian-American,Social Work,20 - 25
+272,Female,25,Social Work,European/Caucasian-American,Social Work,25 - 30
+273,Male,29,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+274,Male,24,"Social Science, Psychologist",Latino/Hispanic American,Academic/Research,20 - 25
+275,Male,21,Engineering,European/Caucasian-American,Buiness/Marketing,20 - 25
+276,Male,26,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+277,Male,25,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+278,Male,32,Engineering,European/Caucasian-American,Academic/Research,30 - 35
+279,Male,25,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+280,Male,25,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+281,Male,27,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,25 - 30
+282,Male,23,Engineering,Black/African American,Buiness/Marketing,20 - 25
+283,Male,27,Engineering,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+284,Male,27,Business/Econ/Finance,European/Caucasian-American,Arts,25 - 30
+285,Male,24,Engineering,Other,Buiness/Marketing,20 - 25
+286,Male,22,Math,European/Caucasian-American,Academic/Research,20 - 25
+287,Male,22,Politics,Asian/Pacific Islander/Asian-American,Arts,20 - 25
+288,Male,27,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,25 - 30
+289,Male,28,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+290,Male,34,Chemistry/Physics,European/Caucasian-American,Academic/Research,30 - 35
+291,Male,27,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+292,Male,28,Politics,Black/African American,Buiness/Marketing,25 - 30
+293,Male,28,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+294,Female,30,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,30 - 35
+295,Female,30,"Education, Academia",European/Caucasian-American,Academic/Research,30 - 35
+296,Female,28,"Education, Academia",European/Caucasian-American,Academic/Research,25 - 30
+297,Female,21,"Education, Academia",European/Caucasian-American,Academic/Research,20 - 25
+298,Female,22,English/Creative Writing/ Journalism,European/Caucasian-American,Academic/Research,20 - 25
+299,Female,24,Social Work,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+300,Female,35,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,35 - 40
+301,Female,34,"Education, Academia",European/Caucasian-American,Academic/Research,30 - 35
+302,Female,21,"Social Science, Psychologist",European/Caucasian-American,Speech Pathology,20 - 25
+303,Female,33,"Education, Academia",European/Caucasian-American,Academic/Research,30 - 35
+304,Female,28,"Social Science, Psychologist",European/Caucasian-American,Speech Pathology,25 - 30
+305,Female,29,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+306,Female,22,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+307,Female,27,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+308,Male,27,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+309,Male,32,"Education, Academia",European/Caucasian-American,Academic/Research,30 - 35
+310,Male,25,Engineering,European/Caucasian-American,Undecided,25 - 30
+311,Male,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+312,Male,23,Fine Arts/Arts Administration,European/Caucasian-American,Arts,20 - 25
+313,Male,27,Business/Econ/Finance,European/Caucasian-American,Arts,25 - 30
+314,Male,32,Politics,Other,Academic/Research,30 - 35
+315,Male,27,Engineering,European/Caucasian-American,Academic/Research,25 - 30
+316,Male,25,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+317,Male,30,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+318,Male,29,Business/Econ/Finance,Other,Buiness/Marketing,25 - 30
+319,Male,26,"Education, Academia",European/Caucasian-American,Academic/Research,25 - 30
+320,Male,36,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,35 - 40
+321,Male,29,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+322,Female,34,"Social Science, Psychologist",Asian/Pacific Islander/Asian-American,Academic/Research,30 - 35
+323,Female,25,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+324,Female,23,"Social Science, Psychologist",European/Caucasian-American,Psychologist,20 - 25
+325,Female,30,"Social Science, Psychologist",Latino/Hispanic American,Psychologist,30 - 35
+326,Female,36,"Education, Academia",Black/African American,Academic/Research,35 - 40
+327,Female,29,Politics,European/Caucasian-American,Buiness/Marketing,25 - 30
+328,Female,30,"Education, Academia",European/Caucasian-American,Academic/Research,30 - 35
+329,Female,29,"Education, Academia",European/Caucasian-American,Academic/Research,25 - 30
+330,Female,22,Engineering,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+331,Female,34,"Education, Academia",European/Caucasian-American,Academic/Research,30 - 35
+332,Male,30,"Social Science, Psychologist",Asian/Pacific Islander/Asian-American,Academic/Research,30 - 35
+333,Male,23,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,20 - 25
+334,Male,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+335,Male,24,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,20 - 25
+336,Male,25,Architecture,Latino/Hispanic American,Architecture,25 - 30
+337,Male,28,Engineering,European/Caucasian-American,Engineer,25 - 30
+338,Male,27,Engineering,Other,Buiness/Marketing,25 - 30
+341,Female,23,Politics,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+342,Female,33,"Education, Academia",Latino/Hispanic American,Academic/Research,30 - 35
+343,Female,32,Chemistry/Physics,European/Caucasian-American,Doctor/Medicine,30 - 35
+344,Female,26,Politics,Latino/Hispanic American,Human Affairs,25 - 30
+345,Female,24,Chemistry/Physics,European/Caucasian-American,Doctor/Medicine,20 - 25
+347,Female,26,"Education, Academia",Black/African American,Politics,25 - 30
+348,Female,21,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+349,Female,33,"Social Science, Psychologist",European/Caucasian-American,Buiness/Marketing,30 - 35
+350,Female,31,Chemistry/Physics,European/Caucasian-American,Doctor/Medicine,30 - 35
+351,Female,35,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,35 - 40
+352,Female,29,"Education, Academia",Other,Arts,25 - 30
+353,Female,25,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+354,Female,22,"Social Science, Psychologist",European/Caucasian-American,Psychologist,20 - 25
+355,Female,24,"Social Science, Psychologist",European/Caucasian-American,Psychologist,20 - 25
+356,Female,27,"Social Science, Psychologist",European/Caucasian-American,Psychologist,25 - 30
+357,Female,27,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+358,Female,26,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+359,Female,26,English/Creative Writing/ Journalism,European/Caucasian-American,Human Affairs,25 - 30
+360,Female,24,"Social Science, Psychologist",Other,Psychologist,20 - 25
+361,Male,34,Law,European/Caucasian-American,Lawyer,30 - 35
+362,Male,30,Law,European/Caucasian-American,Lawyer,30 - 35
+363,Male,23,Engineering,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+364,Male,27,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+365,Male,30,Business/Econ/Finance,European/Caucasian-American,Undecided,30 - 35
+366,Male,27,Business/Econ/Finance,European/Caucasian-American,Arts,25 - 30
+367,Male,27,Politics,European/Caucasian-American,Politics,25 - 30
+368,Male,24,Politics,Other,Arts,20 - 25
+369,Male,25,"Social Science, Psychologist",European/Caucasian-American,Psychologist,25 - 30
+370,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+371,Male,27,Business/Econ/Finance,European/Caucasian-American,Human Affairs,25 - 30
+372,Male,27,Business/Econ/Finance,European/Caucasian-American,Undecided,25 - 30
+373,Male,29,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+374,Male,30,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,30 - 35
+375,Male,27,Business/Econ/Finance,European/Caucasian-American,Lawyer,25 - 30
+376,Male,25,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Undecided,25 - 30
+377,Male,26,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+378,Male,29,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+379,Female,38,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,35 - 40
+380,Female,33,Film,Black/African American,Arts,30 - 35
+381,Female,24,Film,European/Caucasian-American,Arts,20 - 25
+382,Female,28,Film,European/Caucasian-American,Arts,25 - 30
+383,Female,27,"Education, Academia",European/Caucasian-American,Buiness/Marketing,25 - 30
+384,Female,23,"Education, Academia",European/Caucasian-American,Undecided,20 - 25
+385,Female,25,"Education, Academia",European/Caucasian-American,Academic/Research,25 - 30
+386,Female,26,"Social Science, Psychologist",European/Caucasian-American,Psychologist,25 - 30
+387,Female,25,"Social Science, Psychologist",European/Caucasian-American,Psychologist,25 - 30
+388,Female,24,"Social Science, Psychologist",European/Caucasian-American,Psychologist,20 - 25
+389,Female,21,Law,European/Caucasian-American,Lawyer,20 - 25
+390,Female,30,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,30 - 35
+391,Female,28,English/Creative Writing/ Journalism,European/Caucasian-American,Arts,25 - 30
+392,Female,26,English/Creative Writing/ Journalism,European/Caucasian-American,Arts,25 - 30
+393,Female,22,English/Creative Writing/ Journalism,European/Caucasian-American,Arts,20 - 25
+394,Female,24,English/Creative Writing/ Journalism,European/Caucasian-American,Arts,20 - 25
+395,Female,33,English/Creative Writing/ Journalism,European/Caucasian-American,Arts,30 - 35
+396,Female,25,Fine Arts/Arts Administration,Asian/Pacific Islander/Asian-American,Arts,25 - 30
+397,Male,24,Law,European/Caucasian-American,Lawyer,20 - 25
+398,Male,29,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+399,Male,29,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+400,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+401,Male,31,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+402,Male,29,Math,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+403,Male,22,Engineering,European/Caucasian-American,Buiness/Marketing,20 - 25
+404,Male,23,Engineering,European/Caucasian-American,Buiness/Marketing,20 - 25
+405,Male,30,Politics,Black/African American,Human Affairs,30 - 35
+406,Male,27,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+407,Male,24,Film,European/Caucasian-American,Arts,20 - 25
+408,Male,24,Politics,Latino/Hispanic American,Human Affairs,20 - 25
+409,Male,23,Engineering,European/Caucasian-American,Academic/Research,20 - 25
+410,Male,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+411,Male,34,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+412,Male,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+413,Male,26,Business/Econ/Finance,European/Caucasian-American,Real Estate,25 - 30
+414,Male,29,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+415,Male,31,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+416,Female,25,"Social Science, Psychologist",Latino/Hispanic American,Psychologist,25 - 30
+417,Female,29,"Social Science, Psychologist",European/Caucasian-American,Psychologist,25 - 30
+418,Female,25,Law,Asian/Pacific Islander/Asian-American,Lawyer,25 - 30
+419,Female,28,Social Work,European/Caucasian-American,Social Work,25 - 30
+420,Female,22,Social Work,European/Caucasian-American,Social Work,20 - 25
+421,Female,25,Social Work,Asian/Pacific Islander/Asian-American,Social Work,25 - 30
+422,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+423,Male,30,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+424,Male,24,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+425,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+426,Male,24,Business/Econ/Finance,European/Caucasian-American,Politics,20 - 25
+427,Male,28,Politics,European/Caucasian-American,Other,25 - 30
+428,Male,27,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+429,Male,27,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+430,Female,22,"Education, Academia",Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+431,Female,27,"Education, Academia",Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+432,Female,28,Social Work,European/Caucasian-American,Social Work,25 - 30
+433,Female,30,Fine Arts/Arts Administration,Other,Arts,30 - 35
+434,Female,27,Social Work,European/Caucasian-American,Other,25 - 30
+435,Female,22,Law,Black/African American,Lawyer,20 - 25
+436,Female,23,Law,European/Caucasian-American,Lawyer,20 - 25
+437,Female,23,Social Work,European/Caucasian-American,Social Work,20 - 25
+438,Female,23,Social Work,European/Caucasian-American,Social Work,20 - 25
+439,Female,29,"Education, Academia",European/Caucasian-American,Academic/Research,25 - 30
+440,Male,21,Law,European/Caucasian-American,Lawyer,20 - 25
+441,Male,24,Law,European/Caucasian-American,Lawyer,20 - 25
+442,Male,25,Law,European/Caucasian-American,Lawyer,25 - 30
+443,Male,27,Politics,Latino/Hispanic American,Human Affairs,25 - 30
+444,Male,26,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+445,Male,30,Politics,European/Caucasian-American,Human Affairs,30 - 35
+446,Male,28,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+447,Male,26,Politics,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+448,Male,22,Law,European/Caucasian-American,Buiness/Marketing,20 - 25
+449,Male,23,Law,Other,Lawyer,20 - 25
+450,Male,25,Politics,European/Caucasian-American,Human Affairs,25 - 30
+451,Male,30,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,30 - 35
+452,Male,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+453,Male,27,Law,Asian/Pacific Islander/Asian-American,Lawyer,25 - 30
+454,Female,27,Fine Arts/Arts Administration,European/Caucasian-American,Academic/Research,25 - 30
+455,Female,24,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+456,Female,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+457,Female,55,English/Creative Writing/ Journalism,Asian/Pacific Islander/Asian-American,Arts,55 - 60
+458,Female,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+459,Female,26,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+460,Male,33,History/Religion/Philosophy,European/Caucasian-American,Academic/Research,30 - 35
+461,Male,27,Engineering,Other,Doctor/Medicine,25 - 30
+462,Male,33,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,30 - 35
+463,Male,23,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+464,Male,33,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,30 - 35
+465,Male,23,History/Religion/Philosophy,European/Caucasian-American,Arts,20 - 25
+466,Female,24,Other,European/Caucasian-American,Undecided,20 - 25
+467,Female,24,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,20 - 25
+468,Female,25,Politics,Other,Academic/Research,25 - 30
+469,Female,25,Politics,Asian/Pacific Islander/Asian-American,Human Affairs,25 - 30
+470,Female,29,Medical/Bio,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+471,Female,30,Medical/Bio,Asian/Pacific Islander/Asian-American,Doctor/Medicine,30 - 35
+472,Female,25,Engineering,Latino/Hispanic American,Engineer,25 - 30
+473,Female,34,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,30 - 35
+474,Female,30,Chemistry/Physics,Black/African American,Academic/Research,30 - 35
+475,Female,27,Politics,Latino/Hispanic American,Human Affairs,25 - 30
+476,Female,25,Politics,European/Caucasian-American,Human Affairs,25 - 30
+477,Female,27,Engineering,Latino/Hispanic American,Engineer,25 - 30
+478,Female,26,Politics,European/Caucasian-American,Buiness/Marketing,25 - 30
+479,Female,27,Politics,European/Caucasian-American,Buiness/Marketing,25 - 30
+480,Female,26,Engineering,European/Caucasian-American,Engineer,25 - 30
+481,Male,23,"Education, Academia",European/Caucasian-American,Academic/Research,20 - 25
+482,Male,30,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+483,Male,28,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,25 - 30
+484,Male,31,Other,Asian/Pacific Islander/Asian-American,Other,30 - 35
+485,Male,29,"Social Science, Psychologist",Black/African American,Academic/Research,25 - 30
+486,Male,32,Chemistry/Physics,Latino/Hispanic American,Doctor/Medicine,30 - 35
+487,Male,24,English/Creative Writing/ Journalism,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+488,Male,29,Business/Econ/Finance,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+489,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+490,Male,29,Film,European/Caucasian-American,Arts,25 - 30
+491,Male,29,Business/Econ/Finance,Latino/Hispanic American,Buiness/Marketing,25 - 30
+492,Male,30,Chemistry/Physics,Other,Academic/Research,30 - 35
+493,Male,20,Politics,Asian/Pacific Islander/Asian-American,Politics,20 - 25
+494,Male,30,English/Creative Writing/ Journalism,European/Caucasian-American,Arts,30 - 35
+495,Male,32,Fine Arts/Arts Administration,Other,Arts,30 - 35
+496,Female,23,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+497,Female,24,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+498,Female,25,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+499,Female,26,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+500,Female,25,Chemistry/Physics,Black/African American,Academic/Research,25 - 30
+501,Female,26,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+502,Male,26,Engineering,Asian/Pacific Islander/Asian-American,Buiness/Marketing,25 - 30
+503,Male,25,Chemistry/Physics,European/Caucasian-American,Academic/Research,25 - 30
+504,Male,23,Engineering,European/Caucasian-American,Buiness/Marketing,20 - 25
+505,Male,27,English/Creative Writing/ Journalism,Asian/Pacific Islander/Asian-American,Arts,25 - 30
+506,Male,24,Math,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+507,Male,24,Math,Asian/Pacific Islander/Asian-American,Academic/Research,20 - 25
+508,Male,36,Math,Asian/Pacific Islander/Asian-American,Undecided,35 - 40
+509,Female,28,English/Creative Writing/ Journalism,Asian/Pacific Islander/Asian-American,Journalism,25 - 30
+510,Female,26,Business/Econ/Finance,Latino/Hispanic American,Academic/Research,25 - 30
+511,Female,23,Engineering,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+513,Female,23,Fine Arts/Arts Administration,European/Caucasian-American,Arts,20 - 25
+514,Female,23,"Social Science, Psychologist",European/Caucasian-American,Academic/Research,20 - 25
+515,Female,23,English/Creative Writing/ Journalism,European/Caucasian-American,Journalism,20 - 25
+516,Female,27,Chemistry/Physics,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+517,Female,30,Fine Arts/Arts Administration,Latino/Hispanic American,Arts,30 - 35
+518,Female,23,Fine Arts/Arts Administration,European/Caucasian-American,Arts,20 - 25
+519,Female,26,"Education, Academia",European/Caucasian-American,Politics,25 - 30
+520,Female,28,Social Work,Other,Human Affairs,25 - 30
+521,Female,26,Social Work,European/Caucasian-American,Human Affairs,25 - 30
+522,Female,22,Law,European/Caucasian-American,Lawyer,20 - 25
+523,Female,27,"Education, Academia",Asian/Pacific Islander/Asian-American,Undecided,25 - 30
+524,Female,25,Medical/Bio,Asian/Pacific Islander/Asian-American,Doctor/Medicine,25 - 30
+525,Female,24,Fine Arts/Arts Administration,European/Caucasian-American,Psychologist,20 - 25
+526,Female,26,Social Work,Latino/Hispanic American,Social Work,25 - 30
+527,Female,24,Social Work,Other,Social Work,20 - 25
+528,Female,29,Social Work,Latino/Hispanic American,Social Work,25 - 30
+529,Female,22,Engineering,Asian/Pacific Islander/Asian-American,Engineer,20 - 25
+530,Female,22,Engineering,Asian/Pacific Islander/Asian-American,Undecided,20 - 25
+531,Male,25,Engineering,Asian/Pacific Islander/Asian-American,Academic/Research,25 - 30
+532,Male,26,Engineering,Asian/Pacific Islander/Asian-American,Engineer,25 - 30
+533,Male,26,Engineering,European/Caucasian-American,Academic/Research,25 - 30
+534,Male,24,Engineering,Other,Engineer,20 - 25
+535,Male,23,Chemistry/Physics,European/Caucasian-American,Academic/Research,20 - 25
+536,Male,29,Math,European/Caucasian-American,Buiness/Marketing,25 - 30
+537,Male,22,Engineering,Asian/Pacific Islander/Asian-American,Lawyer,20 - 25
+538,Male,32,Engineering,European/Caucasian-American,Buiness/Marketing,30 - 35
+539,Male,22,Law,European/Caucasian-American,Lawyer,20 - 25
+540,Male,24,Engineering,European/Caucasian-American,Academic/Research,20 - 25
+541,Male,23,Engineering,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+542,Male,23,Engineering,Asian/Pacific Islander/Asian-American,Buiness/Marketing,20 - 25
+543,Male,24,Engineering,Asian/Pacific Islander/Asian-American,Engineer,20 - 25
+544,Male,23,Engineering,Asian/Pacific Islander/Asian-American,Doctor/Medicine,20 - 25
+545,Male,24,Engineering,European/Caucasian-American,Doctor/Medicine,20 - 25
+546,Male,30,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+547,Male,30,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+548,Male,30,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+549,Male,28,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,25 - 30
+550,Male,30,Business/Econ/Finance,European/Caucasian-American,Buiness/Marketing,30 - 35
+551,Male,27,Business/Econ/Finance,Black/African American,Buiness/Marketing,25 - 30
+552,Male,25,Other,European/Caucasian-American,Other,25 - 30

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Participants Matching Overview</title>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.3/d3-tip.min.js"></script>
+    <script src="js/legend.js"></script>
+    <link rel="stylesheet" href="css/radar-chart.css" />
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/templatemo_misc.css">
+    <link rel="stylesheet" href="../css/templatemo_style.css">
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<style>
+.node {
+  fill-opacity: .9;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+    width:300;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 9px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: 1px 1px 1px 0;
+  top: 100%;
+  left: 20;
+    right: 20;
+}
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;}
+
+</style>
+<body>
+    <div id="home">
+        <div class="site-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-6 col-xs-6">
+                        <div id="templatemo_logo">
+                            <h1><a href="../index.html">Cupid Minion</a></h1>
+                        </div> <!-- /.logo -->
+                    </div> <!-- /.col-md-4 -->
+                </div>
+            </div> <!-- /.container -->
+        </div> <!-- /.site-header -->
+    </div> <!-- /#front -->
+    <div id="analysis" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="section-title">Participants Matching Overview</h1>
+                </div> <!-- /.col-md-12 -->
+            </div> <!-- /.row -->
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <style>
+                        body{font-family: Arial, Helvetica, sans-serif; fontsize: 13px;}
+                        .info, .success, .warning, .error{
+                            border: 1px solid;
+                            margin: 10px 0px;
+                            padding: 15px 10px 15px 50px;
+                            background-repeat: no-repeat;
+                        }
+                        .success{
+                            color: #4F8A10;
+                            background-color: #DFF2BF;
+                        }
+                    </style>
+                    <div class="success">
+                        In this force-directed graph, each node represents a participant. The size of the node represents the number of matches this participant has while the color of the node represents the race of the participant. Each connection represents a match between the two connected participants. The link strength represents how the two participants like each other. There are some participants who could not get a match from this speed dating experiment, however, it can be seen from this graph that most of the participants have had at least one match, some popular participants have gotten more matches.
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <img style="width:50%;height:50%"src="img/legend2.png" alt="legend">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id='graph' class="col-xs-9"></div>
+                <!--<mode-table id="table_b49b1178be31" dataset="dataset" options="table_options"></mode-table>-->
+                <script>
+
+                d3.csv('speeddating.csv', function (error, data) {
+
+                console.log(data);
+
+                /// INPUTS
+
+                //  Sets node spacing
+                var linkDistance = 100;
+
+                // Sets min and max sizes for nodes
+                var minSize = 2;
+                var maxSize = 10;
+
+                // Sets min and max width for link lines
+                var minWidth = 0.2;
+                var maxWidth = 2;
+
+                /// END
+
+
+                var width = 980,
+                    height = 580;
+
+                var color = d3.scale.category20();
+
+                var force = d3.layout.force()
+                    .charge(-120)
+                    .linkDistance(linkDistance)  
+                    .size([width, height]);
+
+                var svg = d3.select("#graph").append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+                    .call(d3.behavior.zoom().on("zoom", function () {
+                        svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
+                      }))
+                      .append("g");
+
+
+
+
+                     allNodes = [];
+
+                  nodeToSize = d3.map();
+                  nodeToCat = d3.map();
+                  nodeToNum = d3.map();
+                   nodeToDetail =d3.map();
+
+                  data.forEach(function(c) { 
+                    allNodes.push(c.node1);
+                    nodeToSize.set(c.node1,+c.node_size);
+                    nodeToCat.set(c.node1,+c.node_category);
+                     nodeToDetail.set(c.node1, c.detail);
+                    maxSize = +c.node_size;
+                    minSize = +c.node_size;
+                    maxLink = +c.link_strength;
+                    minLink = +c.link_strength;
+                  })
+
+                  uniqNodes = _.uniq(allNodes);
+
+                  nodes = [];  
+
+                  uniqNodes.forEach(function(n,i) {
+
+                    nodeToNum.set(n,i);
+
+                    nodeSize = nodeToSize.get(n);
+                    nodeCat = nodeToCat.get(n);
+                    nodeDetail = nodeToDetail.get(n);
+
+                    if (nodeSize > maxSize) { maxSize = nodeSize;}
+                    if (nodeSize < minSize) { minSize = nodeSize;}
+
+                    arr = {"name":n,"group":nodeCat,"size":nodeSize,"detail":nodeDetail}
+                    nodes.push(arr);
+                  })
+
+                  links = [];
+
+                  data.forEach(function(c) {
+                    if (c.node1 != c.node2) {
+
+                      source = nodeToNum.get(c.node1);
+                      target = nodeToNum.get(c.node2);
+                      value = +c.link_strength;
+
+                      if (value > maxLink) { maxLink = value;}
+                      if (value < minLink) { minLink = value;}
+
+                      entry = {"source":source,"target":target,"value":value};
+                      links.push(entry);
+                    }
+                  })
+
+                  graph = {"nodes":nodes,"links":links}
+
+
+                  sizeScale = d3.scale
+                    .linear()
+                    // .log()
+                    .domain([minSize,maxSize])
+                    .range([minSize,maxSize])
+
+
+                  linkScale = d3.scale
+                    .linear()
+                    // .log()
+                    .domain([minLink,maxLink])
+                    .range([minWidth,maxWidth]);
+
+                  force
+                      .nodes(graph.nodes)
+                      .links(graph.links)
+                      .start();
+
+                  var tip = d3.tip()
+                      .attr('class', 'd3-tip')
+                      .offset([-10, 0])
+                      .html(function(d) { return d.detail; })
+
+                  var link = svg.selectAll(".link")
+                      .data(graph.links)
+                    .enter().append("line")
+                      .attr("class", "link")
+                      .style("stroke-width", function(d) { return linkScale(d.value); });
+
+                  svg.call(tip);
+
+                  var node = svg.selectAll(".node")
+                      .data(graph.nodes)
+                    .enter().append("circle")
+                      .attr("class", "node")
+                      .attr("r",function(d) { return sizeScale(d.size)})
+                    //.attr("data-legend",function(d) { return d.group})
+                      .style("fill", function(d) { return color(d.group); })
+                      .style("transparency",0.5)
+                      .call(force.drag)
+                      .on('mouseover', tip.show)
+                      .on('mouseout', tip.hide);
+
+                  node.append("title")
+                      .text(function(d) { return d.name; });
+
+                  force.on("tick", function() {
+                    link.attr("x1", function(d) { return d.source.x; })
+                        .attr("y1", function(d) { return d.source.y; })
+                        .attr("x2", function(d) { return d.target.x; })
+                        .attr("y2", function(d) { return d.target.y; });
+
+                    node.attr("cx", function(d) { return d.x; })
+                        .attr("cy", function(d) { return d.y; });
+                  });
+
+
+                  /*  legend = svg.append("g")
+                    .attr("class","legend")
+                    .attr("transform","translate(50,30)")
+                    .style("font-size","12px")
+                    .call(d3.legend)
+
+                  setTimeout(function() { 
+                    legend
+                      .style("font-size","20px")
+                      .attr("data-style-padding",10)
+                      .call(d3.legend)
+                  },1000)
+                */
+
+
+                });
+                </script>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#products -->
+    
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <span id="copyright">
+                    	Copyright &copy; Cupid Minion 2016
+                    </span>
+                </div> <!-- /.col-md-6 -->
+                <div class="col-md-4 col-sm-6">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+                        <li><a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
+                    </ul>
+                </div> <!-- /.col-md-6 -->
+            </div> <!-- /.row -->
+            
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <span id="copyright">
+                    	Brought to you by: &nbsp; Liang Bing &nbsp; &nbsp; Yang Chengzhen &nbsp; &nbsp; Zheng Xiye
+                    </span>
+                </div> <!-- /.col-md-6 -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+</body>
